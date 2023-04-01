@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>GonZapatos</title>
+       <link rel="stylesheet" href="./css/api.css">
+      
+
+       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,600&display=swap" rel="stylesheet">
+
+      
+
+  </head>
+  <body>
+
+    <nav>
+  <div class="logo">
+    <img src="https://th.bing.com/th/id/OIP.ODoAfYhzBRpTbxF77itRoQHaHa?w=206&h=206&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Logo">
+  </div>
+  <div class="Nombre">
+    GonZapatos
+  </div>
+  <ul>
+    <li><a href="./index.html">Inicio</a></li>
+    
+  </ul>
+  <div class="cta">
+    <a href="./api.html" class="btn btn-primary">Buscar pokemon</a>
+  </div>
+</nav>
+
+
+    <div class="container-api">
+       <form>
+         
+          <input type="text" class="input-api" placeholder="Pokemon" id="nombrepokemon">
+          <button type="submit" class="boton-api" id="boton" onclick="getPokemon()">Buscar Pokemon</button>
+
+       </form>
+       <div class="pokemon-api" id="pokemon"></div>
+  </div>
+
+
+
+ <script type="text/javascript" src="./js/api.js"></script>
+  </body>

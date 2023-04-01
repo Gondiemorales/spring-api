@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>GonZapatos</title>
+       <link rel="stylesheet" href="./css/Comprar.css">
+
+       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,600&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+      <header>
+  <div class="logo">
+    <img src="https://th.bing.com/th/id/OIP.ODoAfYhzBRpTbxF77itRoQHaHa?w=206&h=206&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Logo">
+  </div>
+  <div class="Nombre">
+    GonZapatos
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="./index.html">Inicio</a></li>
+      
+    </ul>
+  </nav>
+  <div class="cta">
+    <a href="./api.html" class="btn btn-primary">Buscar pokemon</a>
+  </div>
+</header>
+ <br>
+  <br>
+   <br>
+ <div class="global">
+      <div class="container">
+        <div class="Formulario">
+          
+          <form>
+              <label for="name">Nombre completo:</label>
+              <input type="text" id="name" name="name" required>
+
+              <br>
+
+              <label for="email">Correo electrónico:</label>
+              <input type="email" id="email" name="email" required>
+
+              <br>
+
+              <label for="card-type">Tipo de tarjeta de crédito:</label>
+              <select id="card-type" name="card-type">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="american-express">American Express</option>
+              </select>
+
+              <br>
+
+              <label for="card-number">Número de tarjeta de crédito:</label>
+              <input type="text" id="card-number" name="card-number" required>
+
+              <br>
+
+              <label for="expiration-date">Fecha de vencimiento:</label>
+              <input type="month" id="expiration-date" name="expiration-date" required>
+
+              <br>
+
+              <label for="security-code">Código de seguridad:</label>
+              <input type="text" id="security-code" name="security-code" required>
+
+             <br>
+             <br>
+
+              <button type="submit">Enviar pago</button>
+            </form>
+
+        </div>

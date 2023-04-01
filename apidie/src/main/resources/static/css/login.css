@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+  width: 4em;
+  height: auto;
+}
+
+.Nombre {
+  font-size: 2.5em;
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.cta {
+  margin-right: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: #ff9900;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #ffcc66;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    margin-right: 0;
+  }
+  
+  .cta {
+    display: none;
+  }
+}
+
+
+/* Estilos para la imagen de la persona */
+.user-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+  }
+  
+  .user-icon i {
+    font-size: 3em;
+    color: #333;
+  }
+  
+  /* Estilos para el formulario */
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Estilos para el botón de Iniciar sesión */
+  .form-container button[type="button"],
+.form-container button[type="submit"] {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #ffcc66;
+  }
+  
+  /* Estilos para el botón de Crear cuenta */
+  .cta {
+    text-align: right;
+    margin-right: -0em;
+  }
+  
+  #create-account-btn {
+    background-color: #fff;
+    color: #ff9900;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #create-account-btn:hover {
+    background-color: #ff9900;
+    color: #fff;
+  }
+
+  .error {
+    background-color: #f8d7da;
+    color: red;
+  }
+  .form-container #volver-btn {
+    background-color: #fff;
+    color: #ff9900;
+    border: 2px solid #ff9900;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    width: 25%;
+  }
+  
+  .form-container #volver-btn:hover {
+    background-color: #ff9900;
+    color: #fff;
+  }

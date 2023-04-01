@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+header {
+          background-color: #333;
+          color: #fff;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo img {
+          width: 4em;
+          height: auto;
+        }
+
+        .Nombre{
+          font-size: 2.5em;
+          margin-left: -12em;
+        }
+
+        nav ul {
+          display: flex;
+          list-style: none;
+          margin-right: -25em;
+          padding: 0;
+        }
+
+        nav li {
+          margin: 0 10px;
+        }
+
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+
+        .cta {
+          margin-right: 20px;
+        }
+
+
+        .btn {
+          display: inline-block;
+          padding: 10px 20px;
+          border-radius: 5px;
+          font-size: 16px;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-decoration: none;
+          transition: background-color 0.2s;
+        }
+
+        .btn-primary {
+          background-color: #ff9900;
+          color: #fff;
+        }
+
+        .btn-primary:hover {
+          background-color: #ffcc66;
+        }
+
+      .global {
+        width: 100%; /* establece el ancho del contenedor */
+        height: 100%;
+        overflow: scroll;
+        display: table;
+      }
+
+      .container {
+        width: 100%; /* establece el ancho del contenedor */
+        height: 100%;
+        overflow: scroll;
+        display: table-row;
+      }
+
+      form {
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para los grupos de elementos del formulario */
+.form-group {
+  margin-bottom: 15em;
+}
+
+/* Estilos para las etiquetas */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input, select, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el botón de envío */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+
+
+
+/* Estilos para el campo de número de tarjeta de crédito */
+#card-number {
+  font-family: "Source Code Pro", monospace;
+}
+
+/* Estilos para el campo de fecha de vencimiento */
+#expiration-date {
+  font-family: "Source Code Pro", monospace;
+}

@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+  width: 4em;
+  height: auto;
+}
+
+.Nombre {
+  font-size: 2.5em;
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.cta {
+  margin-right: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: #ff9900;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #ffcc66;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    margin-right: 0;
+  }
+  
+  .cta {
+    display: none;
+  }
+}
+
+      .global {
+        width: 100%; /* establece el ancho del contenedor */
+        height: 100%;
+        overflow: scroll;
+        display: table;
+      }
+
+      .container {
+        width: 100%; /* establece el ancho del contenedor */
+        height: 100%;
+        overflow: scroll;
+        display: table-row;
+      }
+      .table {
+       position: relative; /* permite posicionar elementos hijos de manera relativa */
+        width: 100%; /* establece el ancho del contenedor */
+        margin-top: 50px;
+      }
+      
+      .imagen1 {
+        float: left;
+        width: 50%; /* establece el ancho de la imagen */
+        height: 45em;
+        margin-top: 1.5em;
+       
+      }
+      .imagen2 {
+        float: right;
+        width: 50%; /* establece el ancho de la imagen */
+        height: 45em;
+        margin-top: 1.5em;
+        
+      }
+      
+      
+      .temp23h {
+        position: absolute; /* permite posicionar el texto de manera absoluta */
+        top: 22em; /* establece un margen superior de 50px */
+        left: 0.5em; /* establece un margen derecho de 50px */
+        color: white; /* establece el color del texto */
+        padding: 10px 20px; /* establece un padding interno */
+        font-size: 2em;
+      }
+      .hombres{
+        position: absolute;
+        background-color: black; /* color de fondo #4CAF50 */
+        border-radius: 5em; /* hace que el fondo sea ovalado */
+        border: none; /* sin borde */
+        color: white; /* color de texto */
+        padding: 15px 32px; /* espacio dentro del botón */
+        text-align: center; /* centrar texto */
+        text-decoration: none; /* sin subrayado de texto */
+        display: inline-block; /* muestra como bloque en línea */
+        font-size: 1em; /* tamaño de fuente */
+        top: 47em; /* establece un margen superior de 50px */
+        left: 2em;
+        cursor: pointer; /* cambia el cursor al pasar el ratón */
+
+      }
+      .hombres:hover{
+        position: absolute;
+        background-color: white; /* color de fondo #4CAF50 */
+        border-radius: 5em; /* hace que el fondo sea ovalado */
+        border: none; /* sin borde */
+        color: black; /* color de texto */
+        padding: 15px 32px; /* espacio dentro del botón */
+        text-align: center; /* centrar texto */
+        text-decoration: none; /* sin subrayado de texto */
+        display: inline-block; /* muestra como bloque en línea */
+        font-size: 1em; /* tamaño de fuente */
+        top: 47em; /* establece un margen superior de 50px */
+        left: 2em;
+        cursor: pointer; /* cambia el cursor al pasar el ratón */
+
+      }
+      .temp23m {
+        position: absolute; /* permite posicionar el texto de manera absoluta */
+        top: 22em; /* establece un margen superior de 50px */
+        right: 0.5em; /* establece un margen derecho de 50px */
+        color: white; /* establece el color del texto */
+        padding: 10px 20px; /* establece un padding interno */
+        font-size: 2em;
+      }
+      .mujeres{
+        position: absolute;
+        background-color: black; /* color de fondo #4CAF50 */
+        border-radius: 5em; /* hace que el fondo sea ovalado */
+        border: none; /* sin borde */
+        color: white; /* color de texto */
+        padding: 15px 32px; /* espacio dentro del botón */
+        text-align: center; /* centrar texto */
+        text-decoration: none; /* sin subrayado de texto */
+        display: inline-block; /* muestra como bloque en línea */
+        font-size: 1em; /* tamaño de fuente */
+        top: 47em; /* establece un margen superior de 50px */
+        right: 2em;
+        cursor: pointer; /* cambia el cursor al pasar el ratón */
+
+      }
+      .mujeres:hover{
+        position: absolute;
+        background-color: white; /* color de fondo #4CAF50 */
+        border-radius: 5em; /* hace que el fondo sea ovalado */
+        border: none; /* sin borde */
+        color: black; /* color de texto */
+        padding: 15px 32px; /* espacio dentro del botón */
+        text-align: center; /* centrar texto */
+        text-decoration: none; /* sin subrayado de texto */
+        display: inline-block; /* muestra como bloque en línea */
+        font-size: 1em; /* tamaño de fuente */
+        top: 47em; /* establece un margen superior de 50px */
+        right: 2em;
+        cursor: pointer; /* cambia el cursor al pasar el ratón */
+
+      }
+
+      .topventas{
+        font-size: 3em;
+        font-style: italic;
+        margin-left: 13.2em;
+      }
+
+      footer {
+        
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+        }
+
+        .footer-content {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 120%;
+          margin: 0 auto;
+        }
+
+        .social-links {
+          list-style: none;
+          display: flex;
+          margin: 0;
+          padding: 0;
+        }
+
+        .social-links li {
+          margin-right: 10px;
+        }
+
+        .social-links a {
+          color: #fff;
+          font-size: 20px;
+          text-decoration: none;
+        }
+
+        .social-links a:hover {
+          color: #ff9900;
+        }
+
+        @media screen and (max-width: 768px) {
+          .footer-content {
+            flex-direction: column;
+            align-items: center;
+          }
+        }
